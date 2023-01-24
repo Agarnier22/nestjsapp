@@ -1,8 +1,10 @@
-const express = require('express');
-const app = express();
+
+const express = require('express')
+const app = express()
+const port = process.env.PORT || 3000
+
 const request = require('request');
 const wikip = require('wiki-infobox-parser');
-const port = process.env.PORT || 3000;
 
 //ejs
 app.set("view engine", 'ejs');
@@ -51,6 +53,4 @@ app.get('/index', (req,response) =>{
 });
 
 //port
-app.listen(port, () => {
-    console.log(`App listening at pport: ${port}`);
-});
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
