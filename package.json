@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rat9615/simple-nodejs-app.git"
+    "url": "git+https://github.com/Agarnier22/nestjsapp.git"
   },
-  "author": "Rohan R",
+  "author": "Garnier A",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rat9615/simple-nodejs-app/issues"
+    "url": "https://github.com/Agarnier22/nestjsapp/issues"
   },
-  "homepage": "https://github.com/rat9615/simple-nodejs-app#readme",
+  "homepage": "https://github.com/Agarnier22/nestjsapp#readme",
   "dependencies": {
     "ejs": "^3.1.7",
     "express": "^4.17.1",
